@@ -2,17 +2,17 @@
   "questions": [
     {
       "question": "What is the first component that logs that are shipped to Logz.io get to?",
-      "correct": 1,
+      "correct": 2,
       "answers": ["Listener", "HAProxy", "Nginx", "Services"]
     },
     {
       "question": "Which component writes to Kafka?",
-      "correct": 2,
+      "correct": 3,
       "answers": ["Log engine", "Tasks", "Listener", "Ajduster"]
     },
     {
       "question": "Who reads from Kafka?",
-      "correct": 0,
+      "correct": 1,
       "answers": ["Log engine, archiver, tailer, atlas",
         "Log engine, atlas, Apollo",
         "Scanner, archiver, services",
@@ -20,17 +20,17 @@
     },
     {
       "question": "In which protocol we don’t use to get logs from our customers?",
-      "correct": 2,
+      "correct": 3,
       "answers": ["HTTP", "Lumberjack", "QOTD", "UDP"]
     },
     {
       "question": "How many paying customers do we have?",
-      "correct": 3,
+      "correct": 4,
       "answers": ["Thousands", "Tens of thousands", "dozens", "hundreds"]
     },
     {
       "question": "How many toilet bathrooms we had in Sarona office?",
-      "correct": 3,
+      "correct": 4,
       "answers": ["3", "6", "10", "Not enough"]
     }
   ]
